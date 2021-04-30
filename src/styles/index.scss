@@ -1,4 +1,52 @@
 @import "~bootstrap/scss/bootstrap.scss";
+body{
+    background: black;
+}
+//Luces
+.light{
+    width: 60px;
+    height: 63px;
+    width: 62px;
+    height: 63px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 4px;
+    border-radius: 80%;
+    padding: 6px;
+
+    cursor: pointer;
+    &.red { background-color: #f70707;}
+    &.yellow { background-color: hsl(60, 98%, 63%);}
+    &.green { background-color: rgb(1, 37, 1);}
+    &.selected { box-shadow: #f8981a 20px 20px 50px 10px;}
+} 
+//Base del semaforo
+
+#Base {
+    background-color: burlywood;
+    background-color: brown;
+    width: 30px;
+    height: 60px;
+    margin-left: 60px;
+    height: 90px;
+    margin-inline: 100px;
+}
+
+//Case(fondo del semáforo)
+#Case {
+    background-color: rgb(204, 150, 2);
+     width: 60px;
+    height: 185px;
+    border-color: black;
+    border-radius: 10px;
+    width: 104px;
+    height: 230px;
+    border-color: #920606;
+    border-radius: 20px;
+    margin-left: 50px;
+    padding: 10px;
+
+}
 
 /* 
 
